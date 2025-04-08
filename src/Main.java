@@ -14,6 +14,10 @@ public class Main {
             opt = scanner.nextInt();
 
             switch (opt) {
+                case 0: {
+                    System.out.println("O programa será encerrado.");
+                }
+                break;
                 case 1: {
                     System.out.println("Iniciando a execução do exercício 1.\n");
                     Exercicio01 ex1 = new Exercicio01();
@@ -140,8 +144,13 @@ public class Main {
                     ex21.executarExercicio21(scanner);
                 }
                 break;
+                default: {
+                    System.out.println("Opção inválida, tente novamente.");
+                }
+                break;
             }
-        } while (opt != -1);
+            System.out.println();
+        } while (opt != 0);
 
         scanner.close();
     }
