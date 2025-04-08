@@ -8,30 +8,9 @@ public class Main {
         int opt;
 
         do {
-            System.out.println("Menu de exercícios:");
-            System.out.println("1 - Exercício 1.");
-            System.out.println("2 - Exercício 2.");
-            System.out.println("3 - Exercício 3.");
-            System.out.println("4 - Exercício 4.");
-            System.out.println("5 - Exercício 5.");
-            System.out.println("6 - Exercício 6.");
-            System.out.println("7 - Exercício 7.");
-            System.out.println("8 - Exercício 8.");
-            System.out.println("9 - Exercício 9.");
-            System.out.println("10 - Exercício 10.");
-            System.out.println("11 - Exercício 11.");
-            System.out.println("12 - Exercício 12.");
-            System.out.println("13 - Exercício 13.");
-            System.out.println("14 - Exercício 14.");
-            System.out.println("15 - Exercício 15.");
-            System.out.println("16 - Exercício 16.");
-            System.out.println("17 - Exercício 17.");
-            System.out.println("18 - Exercício 18.");
-            System.out.println("19 - Exercício 19.");
-            System.out.println("20 - Exercício 20.");
-            System.out.println("21 - Exercício 21.");
-            System.out.println("0 - Sair.");
-            System.out.print("Selecione uma opção: ");
+            System.out.println("Menu de exercícios.");
+            System.out.println("Digite o número de um exercício para executá-lo.");
+            System.out.println("Digite 0 para sair.");
             opt = scanner.nextInt();
 
             switch (opt) {
